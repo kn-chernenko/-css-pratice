@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  height: 100vh;
+}
+
+.header,
+.main,
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  height: 30vh;
+  background-color: #d9ed92;
+  justify-content: flex-start;
+}
+
+.main {
+  height: 40vh;
+  background-color: #b5e48c;
+  justify-content: center;
+}
+
+.footer {
+  height: 30vh;
+  background-color: #99d98c;
+  justify-content: flex-end;
+}
+
+.text {
+  padding: 1rem 1.5rem;
+  color: #184e2a;
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+}
